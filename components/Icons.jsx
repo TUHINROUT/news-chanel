@@ -1,0 +1,23 @@
+const p = { width: 14, height: 14, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round" };
+export const Clock = (props) => (<svg {...p} {...props}><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>);
+export const Chevron = (props) => (<svg {...p} width="10" height="10" {...props}><path d="m6 9 6 6 6-6" /></svg>);
+export const ChevLeft = (props) => (<svg {...p} {...props}><path d="m15 18-6-6 6-6" /></svg>);
+export const ChevRight = (props) => (<svg {...p} {...props}><path d="m9 18 6-6-6-6" /></svg>);
+export const Home = (props) => (<svg {...p} width="18" height="18" fill="currentColor" stroke="none" {...props}><path d="M12 3 2 12h3v8h5v-5h4v5h5v-8h3z" /></svg>);
+export const Bookmark = (props) => (<svg {...p} {...props}><path d="M6 3h12v18l-6-4-6 4z" /></svg>);
+export const Arrow = (props) => (<svg {...p} width="11" height="11" {...props}><path d="M5 12h14M13 6l6 6-6 6" /></svg>);
+export const Mail = (props) => (<svg {...p} width="30" height="30" strokeWidth="1.8" {...props}><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 7 9-7" /></svg>);
+export const Menu = (props) => (<svg {...p} width="18" height="18" {...props}><path d="M4 6h16M4 12h16M4 18h16" /></svg>);
+export const Tv = (props) => (<svg {...p} width="15" height="15" {...props}><rect x="3" y="4" width="18" height="14" rx="2" /><path d="m10 9 5 3-5 3z" fill="currentColor" /></svg>);
+export const Sun = (props) => (<svg {...p} fill="#f5a623" stroke="#f5a623" {...props}><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5" /></svg>);
+export const Pin = (props) => (<svg {...p} {...props}><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>);
+export const Cal = (props) => (<svg {...p} {...props}><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /></svg>);
+
+const fill = { width: 15, height: 15, viewBox: "0 0 24 24", fill: "currentColor" };
+export const Facebook = (props) => (<svg {...fill} {...props}><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4v-7h2.5l.5-3H15V9.2c0-.9.3-1.5 1.6-1.5H18V5.1c-.3 0-1.2-.1-2.2-.1C13.6 5 12 6.3 12 8.800V11H9.500v3H12v7H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" /></svg>);
+export const X = (props) => (<svg {...fill} {...props}><path d="M17.800 3h3L14.200 10.500 22 21h-6.100l-4.800-6.3L5.600 21h-3l7-8L2.200 3h6.200l4.300 5.700zM16.800 19.200h1.700L7.500 4.700H5.700z" /></svg>);
+export const YouTube = (props) => (<svg {...fill} {...props}><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm7 4v6l5-3z" /></svg>);
+export const Instagram = (props) => (<svg {...fill} {...props}><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm5 2.5a4.500 4.500 0 1 1 0 9 4.500 4.500 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.500 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /></svg>);
+export const LinkedIn = (props) => (<svg {...fill} {...props}><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm1 7v8h2.5v-8zm1.200-3.800a1.400 1.400 0 1 0 0 2.800 1.400 1.400 0 0 0 0-2.800zM10.500 10v8H13v-4.200c0-1.200.5-1.800 1.400-1.800s1.300.6 1.300 1.800V18h2.5v-4.800c0-2.100-1.100-3.400-2.900-3.400-1 0-1.800.5-2.300 1.200V10z" /></svg>);
+export const Apple = (props) => (<svg {...fill} width="16" height="16" {...props}><path d="M16.400 12.5c0-2.300 1.900-3.400 2-3.500-1.100-1.600-2.800-1.800-3.400-1.800-1.400-.2-2.800.9-3.500.9s-1.800-.8-3-.8c-1.500 0-3 .9-3.800 2.300-1.600 2.800-.4 7 1.200 9.300.8 1.100 1.700 2.400 2.900 2.300 1.200 0 1.600-.7 3-.7s1.800.7 3 .7 2-1.100 2.800-2.200c.9-1.300 1.200-2.5 1.200-2.600-.1 0-2.400-.9-2.400-3.900zM14.200 5.700c.6-.8 1.100-1.800.9-2.900-.9 0-2 .6-2.700 1.400-.6.700-1.100 1.800-.9 2.800 1 .1 2-.5 2.700-1.300z" /></svg>);
+export const Play = (props) => (<svg {...fill} width="14" height="14" {...props}><path d="M5 3 21 12 5 21z" /></svg>);
